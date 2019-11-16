@@ -11,7 +11,7 @@ const uri = magnet.encode({
   tr: [
     'udp://tracker.openbittorrent.com:80/announce'
   ],
-  as: 'http://download.wikimedia.org/mediawiki/1.15/mediawiki-1.15.1.tar.gz',
+  as: './abertura.mp4',
   xs: [
     'http://cache.example.org/XRX2PEFXOOEJFRVUCX6HMZMKS5TWG4K5',
     'dchub://example.org'
