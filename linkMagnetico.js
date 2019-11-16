@@ -1,6 +1,6 @@
-import { encode } from 'magnet-uri'
+const magnet = require('magnet-uri')
 
-const uri = encode({
+const uri = magnet.encode({
   xt: [
     'urn:ed2k:354B15E68FB8F36D7CD88FF94116CDC1',
     'urn:tree:tiger:7N5OAMRNGMSSEUE3ORHOKWN4WWIQ5X4EBOOTLJY',
