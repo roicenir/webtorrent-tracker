@@ -17,5 +17,5 @@ const uri = magnet.encode({
     'dchub://example.org'
   ]
 })
-
+console.log("TESTANDO, 1, 2, 3 !!!!")
 console.log(uri) // the magnet uri
